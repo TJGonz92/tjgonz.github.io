@@ -1,12 +1,14 @@
 :root {
   --bg: #0d1117;
-  --card-bg: #161b22;
-  --card-border: #30363d;
+  --surface: #161b22;
+  --surface-hover: #1c2128;
+  --border: #30363d;
   --text: #e6edf3;
   --text-muted: #8b949e;
   --accent: #388bfd;
   --accent-hover: #58a6ff;
   --tag-bg: #21262d;
+  --code-bg: #090d13;
   --max-width: 960px;
 }
 
@@ -29,9 +31,10 @@ body {
   margin: 0 auto;
 }
 
+/* Header */
 header {
   padding: 4rem 0 2.5rem;
-  border-bottom: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -83,6 +86,7 @@ nav a:hover {
   color: var(--accent-hover);
 }
 
+/* Main Layout */
 main {
   margin-top: 3rem;
   display: flex;
@@ -102,7 +106,7 @@ section .subtitle {
   font-size: 0.95rem;
 }
 
-/* App Grid */
+/* App Grid & Cards */
 .app-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -110,13 +114,18 @@ section .subtitle {
 }
 
 .app-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: border-color 0.15s ease;
+}
+
+.app-card:hover {
+  border-color: var(--accent);
 }
 
 .app-header {
@@ -127,15 +136,15 @@ section .subtitle {
 }
 
 .app-icon {
-  width: 46px;
-  height: 46px;
+  width: 48px;
+  height: 48px;
   border-radius: 10px;
   background: var(--tag-bg);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
-  border: 1px solid var(--card-border);
+  font-size: 1.5rem;
+  border: 1px solid var(--border);
 }
 
 .app-title h3 {
@@ -167,8 +176,9 @@ section .subtitle {
   font-size: 0.88rem;
   padding: 0.65rem 1rem;
   border-radius: 6px;
-  border: 1px solid var(--card-border);
+  border: 1px solid var(--border);
   transition: all 0.15s ease;
+  width: 100%;
 }
 
 .btn-play:hover {
@@ -181,7 +191,7 @@ section .subtitle {
   display: flex;
   gap: 1rem;
   font-size: 0.82rem;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px solid var(--border);
   padding-top: 0.75rem;
   margin-top: 1rem;
 }
@@ -197,8 +207,8 @@ section .subtitle {
 
 /* Legal Documents & Content Layout */
 .doc-box {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 2.25rem;
   margin-top: 2rem;
@@ -242,10 +252,10 @@ section .subtitle {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  background: #090d13;
+  background: var(--code-bg);
   padding: 0.85rem 1rem;
   border-radius: 6px;
-  border: 1px solid var(--card-border);
+  border: 1px solid var(--border);
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.88rem;
 }
@@ -254,10 +264,11 @@ section .subtitle {
   color: #7ee787;
 }
 
+/* Footer */
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   align-items: center;
