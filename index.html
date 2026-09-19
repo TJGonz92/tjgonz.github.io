@@ -4,113 +4,116 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TJ Gonzalez | Android Apps & Developer Portal</title>
-  <meta name="description" content="Android utilities and mobile apps developed by TJ Gonzalez." />
+  <meta name="description" content="Android utilities and mobile apps developed by TJ Gonzalez. Privacy policies and terms of use." />
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
   <div class="container">
     <header>
-      <div class="badge">Android Engineering & Utilities</div>
+      <div class="m3-badge">Android Engineering</div>
       <h1>TJ Gonzalez</h1>
       <p class="lead">Building clean, local-first utility tools and native mobile experiences for Android.</p>
       <nav>
-        <a href="#apps">Apps</a>
-        <a href="#verification">AdMob app-ads.txt</a>
-        <a href="mailto:android@tjgonzalez.dev">Contact Support</a>
+        <a href="#apps" class="nav-pill">Applications</a>
+        <a href="mailto:android@tjgonzalez.dev" class="nav-pill">Contact Support</a>
       </nav>
     </header>
 
     <main>
-      <!-- Applications Showcase -->
       <section id="apps">
-        <h2>Applications</h2>
-        <p class="subtitle">Direct store links, privacy policies, and terms of service.</p>
+        <h2>Published Applications</h2>
+        <p class="subtitle">Select an application to view its privacy policy, terms of use, or Google Play listing.</p>
 
         <div class="app-grid">
           <!-- Simple Counter+ -->
-          <div class="app-card">
+          <div class="m3-card">
             <div>
               <div class="app-header">
-                <div class="app-icon">🔢</div>
+                <img 
+                  src="/counter/icon.png" 
+                  alt="Simple Counter+ Icon" 
+                  class="app-icon" 
+                  onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/r_placeholder'; this.innerText='🔢';"
+                />
                 <div class="app-title">
                   <h3>Simple Counter+</h3>
                   <p>dev.tjgonzalez.counter.counter</p>
                 </div>
               </div>
               <p class="app-desc">
-                Minimalist tally counter built around modern Material You guidelines. Includes keep-screen-awake mode, dark theme, and an uncluttered counter view.
+                Minimalist tally counter built around Material You guidelines. Features keep-screen-awake mode, custom increments, volume key counting, and dark theme support.
               </p>
             </div>
-            <div>
-              <a href="https://play.google.com/store/apps/details?id=dev.tjgonzalez.counter.counter" target="_blank" rel="noopener noreferrer" class="btn-play">
-                Get on Google Play &rarr;
-              </a>
-              <div class="legal-links">
-                <a href="/counter/privacy.html">Privacy Policy</a>
-                <a href="/counter/terms.html">Terms & Conditions</a>
+            <div class="card-actions">
+              <div class="legal-chips">
+                <a href="/counter/privacy.html" class="chip-legal">Privacy Policy</a>
+                <a href="/counter/terms.html" class="chip-legal">Terms of Use</a>
               </div>
+              <a href="https://play.google.com/store/apps/details?id=dev.tjgonzalez.counter.counter" target="_blank" rel="noopener noreferrer" class="btn-play-outlined">
+                Google Play Listing &rarr;
+              </a>
             </div>
           </div>
 
           <!-- WreckerPay -->
-          <div class="app-card">
+          <div class="m3-card">
             <div>
               <div class="app-header">
-                <div class="app-icon">🛻</div>
+                <img 
+                  src="/wreckerpay/icon.png" 
+                  alt="WreckerPay Icon" 
+                  class="app-icon" 
+                  onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/r_placeholder'; this.innerText='🛻';"
+                />
                 <div class="app-title">
                   <h3>WreckerPay</h3>
                   <p>app.wreckerpay</p>
                 </div>
               </div>
               <p class="app-desc">
-                Built for towing and roadside recovery drivers. Log calls on the fly, calculate driver commission splits, track shift totals, and retain offline run records.
+                Engineered for towing and recovery operators. Log calls on the fly, calculate driver commission splits, track shift totals, and retain offline run records.
               </p>
             </div>
-            <div>
-              <a href="https://play.google.com/store/apps/details?id=app.wreckerpay" target="_blank" rel="noopener noreferrer" class="btn-play">
-                Get on Google Play &rarr;
-              </a>
-              <div class="legal-links">
-                <a href="/wreckerpay/privacy.html">Privacy Policy</a>
-                <a href="/wreckerpay/terms.html">Terms & Conditions</a>
+            <div class="card-actions">
+              <div class="legal-chips">
+                <a href="/wreckerpay/privacy.html" class="chip-legal">Privacy Policy</a>
+                <a href="/wreckerpay/terms.html" class="chip-legal">Terms of Use</a>
               </div>
+              <a href="https://play.google.com/store/apps/details?id=app.wreckerpay" target="_blank" rel="noopener noreferrer" class="btn-play-outlined">
+                Google Play Listing &rarr;
+              </a>
             </div>
           </div>
 
           <!-- HexClear -->
-          <div class="app-card">
+          <div class="m3-card">
             <div>
               <div class="app-header">
-                <div class="app-icon">🧩</div>
+                <img 
+                  src="/hexclear/icon.jpg" 
+                  alt="HexClear Icon" 
+                  class="app-icon" 
+                  onerror="this.onerror=null; this.src='https://play-lh.googleusercontent.com/r_placeholder'; this.innerText='🧩';"
+                />
                 <div class="app-title">
                   <h3>HexClear</h3>
                   <p>com.hexclear.app</p>
                 </div>
               </div>
               <p class="app-desc">
-                A streamlined hexagonal puzzle game designed around intuitive tile placement, clean board states, and focused game loops.
+                A streamlined hexagonal puzzle game designed around intuitive tile placement, clean board states, and focused, distraction-free game loops.
               </p>
             </div>
-            <div>
-              <a href="https://play.google.com/store/apps/details?id=com.hexclear.app" target="_blank" rel="noopener noreferrer" class="btn-play">
-                Get on Google Play &rarr;
-              </a>
-              <div class="legal-links">
-                <a href="/hexclear/privacy.html">Privacy Policy</a>
-                <a href="/hexclear/terms.html">Terms & Conditions</a>
+            <div class="card-actions">
+              <div class="legal-chips">
+                <a href="/hexclear/privacy.html" class="chip-legal">Privacy Policy</a>
+                <a href="/hexclear/terms.html" class="chip-legal">Terms of Use</a>
               </div>
+              <a href="https://play.google.com/store/apps/details?id=com.hexclear.app" target="_blank" rel="noopener noreferrer" class="btn-play-outlined">
+                Google Play Listing &rarr;
+              </a>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- AdMob Verification Section -->
-      <section id="verification">
-        <h2>Publisher Verification</h2>
-        <p class="subtitle">AdMob and authorized digital sellers crawl standard verification file.</p>
-        <div class="code-box">
-          <code>https://tjgonzalez.dev/app-ads.txt</code>
-          <a href="/app-ads.txt" target="_blank" style="color: var(--accent-hover); font-size: 0.85rem; text-decoration: none;">View raw file &rarr;</a>
         </div>
       </section>
     </main>
