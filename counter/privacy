@@ -1,1 +1,132 @@
-t
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Counter+ Privacy Policy</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="/">&larr; Back to Home</a>
+        <a href="/counter/terms.html">Terms of Use</a>
+      </nav>
+    </header>
+
+    <div class="doc-box">
+      <h2>Simple Counter+ Privacy Policy</h2>
+      <span class="date-stamp">Effective Date: September 12, 2026 &middot; App ID: <code>dev.tjgonzalez.counter.counter</code></span>
+
+      <div class="doc-content">
+        <p>
+          This Privacy Policy describes how Simple Counter+ (&ldquo;App&rdquo;), developed by TJ Gonzalez,
+          collects, uses, and shares information when you use the App. By downloading,
+          accessing, or using the App, you consent to the practices described here.
+          If you do not agree, please do not use the App.
+        </p>
+
+        <h3>1. Local data (stays on your device)</h3>
+        <p>The App stores the following <strong>only on your device</strong>:</p>
+        <ul>
+          <li>Counters you create (names, counts, increment/decrement amounts)</li>
+          <li>Display and hardware settings (theme, vibration, volume keys, keep-screen-on, ads-removed flag)</li>
+        </ul>
+        <p>
+          CSV/TXT import and export files are written only where <strong>you</strong> choose
+          with the system file picker. We do not upload those files.
+          Uninstalling the App deletes this local data.
+        </p>
+
+        <h3>2. Optional feedback (Firebase Firestore)</h3>
+        <p>
+          If you submit in-app feedback, we send to Google Firebase Firestore:
+        </p>
+        <ul>
+          <li>Name</li>
+          <li>Message</li>
+          <li>Optional email (only if you ask to be contacted)</li>
+          <li>App identifier, device brand, device model, and OS version</li>
+        </ul>
+        <p>
+          Feedback is <strong>not</strong> sent unless you tap Submit. There is no account or login.
+        </p>
+
+        <h3>3. Advertising (Google AdMob)</h3>
+        <p>
+          The free App shows banner ads via Google AdMob (<code>google_mobile_ads</code>).
+          Google and its partners may collect advertising identifiers (such as the
+          Android Advertising ID), device and app data, and approximate location as
+          described in
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>
+          and
+          <a href="https://support.google.com/admob" target="_blank" rel="noopener noreferrer">AdMob policies</a>,
+          to serve, measure, and personalize ads.
+        </p>
+        <p>
+          You can hide ads in this App with the one-time in-app purchase <code>remove_ads</code>.
+        </p>
+
+        <h3>4. Purchases (Google Play Billing)</h3>
+        <p>
+          The optional one-time product <code>remove_ads</code> is processed by Google Play Billing.
+          Google handles payment details. We receive purchase status so the App can hide
+          ads and restore purchases on this Google account. We do not process card
+          payments ourselves.
+        </p>
+
+        <h3>5. How we use information</h3>
+        <ul>
+          <li>Operate counters and settings on your device</li>
+          <li>Show ads that support the free App, unless you purchased <code>remove_ads</code></li>
+          <li>Process and restore the <code>remove_ads</code> purchase</li>
+          <li>Read and reply to optional feedback you send</li>
+          <li>Comply with law and store policies</li>
+        </ul>
+
+        <h3>6. Sharing</h3>
+        <p>We do not sell your personal information. We share data only as needed with:</p>
+        <ul>
+          <li>Google AdMob / Google advertising partners, for ads</li>
+          <li>Google Play, for billing and restore of <code>remove_ads</code></li>
+          <li>Google Firebase (Firestore), for optional feedback submissions</li>
+          <li>Authorities when required by law</li>
+        </ul>
+
+        <h3>7. Your choices and data deletion</h3>
+        <ul>
+          <li><strong>Local counters and settings:</strong> delete them in the App, or uninstall the App to clear local data.</li>
+          <li><strong>Feedback in Firestore:</strong> email
+            <a href="mailto:android@tjgonzalez.dev">android@tjgonzalez.dev</a>
+            and ask us to delete it. Include the name or email you used if you can, so we can find the record.</li>
+          <li><strong>Ads:</strong> use device / Google Ads settings, or purchase <code>remove_ads</code> to hide banners in this App.</li>
+          <li><strong>Purchases:</strong> manage Google Play orders and refunds in your Google account. Restore purchases from Settings if you reinstall.</li>
+        </ul>
+
+        <h3>8. Children</h3>
+        <p>
+          The App is not directed at children under 13. We do not knowingly collect
+          personal information from children under 13.
+        </p>
+
+        <h3>9. Changes</h3>
+        <p>
+          We may update this policy. The &ldquo;Effective Date&rdquo; at the top will change when we do.
+          Continued use of the App after an update means you accept the revised policy.
+        </p>
+
+        <h3>10. Contact</h3>
+        <p>
+          Questions about privacy, or to request deletion of feedback:
+          <a href="mailto:android@tjgonzalez.dev">android@tjgonzalez.dev</a>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 TJ Gonzalez &middot; <a href="mailto:android@tjgonzalez.dev">android@tjgonzalez.dev</a></p>
+    </footer>
+  </div>
+</body>
+</html>
